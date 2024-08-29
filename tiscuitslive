@@ -12,7 +12,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: url('backgroud.png') no-repeat center center fixed;
+            background: url('YOUR_BACKGROUND_IMAGE_URL') no-repeat center center fixed;
             background-size: cover;
         }
     </style>
