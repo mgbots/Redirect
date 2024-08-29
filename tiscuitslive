@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+    <title>Redirect</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             height: 100vh;
-            background-image: url('background.png'); /* Make sure the path to your image is correct */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('backgroud.png') no-repeat center center fixed;
             background-size: cover;
-            background-position: center;
         }
     </style>
-    <script>
-        // Redirect after 2 seconds
-        setTimeout(function() {
-            window.location.href = "https://dub.sh/mgbotslive"; // Replace with your target URL
-        }, 2000);
-    </script>
 </head>
 <body>
+    <script>
+        // Delay redirect by 2 seconds (2000 milliseconds)
+        setTimeout(function() {
+            window.location.href = 'https://www.twitch.tv/tiscuits';
+        }, 2000);
+    </script>
 </body>
 </html>
