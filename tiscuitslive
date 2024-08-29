@@ -17,7 +17,7 @@
     <script>
         // Redirect after 2 seconds
         setTimeout(function() {
-            window.location.href = "https://twitch.tv/tiscuits"; // Replace with your target URL
+            window.location.href = "https://dub.sh/mgbotslive"; // Replace with your target URL
         }, 2000);
     </script>
 </head>
